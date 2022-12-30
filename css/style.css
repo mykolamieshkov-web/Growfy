@@ -98,7 +98,8 @@ max-width: 100%;
    .header {
       width: 100vw;
       margin: 5px;
-      justify-content: space-between;
+      margin-left: 0;
+      justify-content: center;
    }
    .header_logo img {
       width: 30%;
@@ -117,5 +118,10 @@ max-width: 100%;
       height: 28px;
       font-size: 10px;
       padding: 10px 20px 10px 20px ;
-}}
+      justify-self: left;
+}
+.header_logo {
+   width: 105px;
+}
+}
 
